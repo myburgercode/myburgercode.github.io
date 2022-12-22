@@ -15,17 +15,21 @@ a.nav-link.active, a.nav-link:hover {
     border-bottom: 6px solid;
     border-top: 8px solid;
     border-radius: 0.375rem;
-    transition : 0.3s ease-in-out ;
+    transition : 0.5s ease-in-out ;
 }
 a.nav-link {
     border-color: #222529!important;
     border-bottom: 6px solid;
     border-top: 8px solid;
     border-radius: 0.375rem;
-    transition : 0.3s ease-in-out ;
+    transition : 0.5s ease-in-out ;
     margin : auto 1em;
 }
-
+.btn:hover{
+    transform: rotate(5deg);
+    transition: .3s ease-in-out;
+    font-weight: 700;
+}
 
 .overlay {
     position: absolute;
