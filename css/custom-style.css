@@ -7,7 +7,7 @@ body, html         {
     background-color: orange;
 }
 
-a.link-dark i:hover {
+a.link-dark i:hover, a.link-light i:hover {
     color: orange!important;
 }
 
